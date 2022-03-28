@@ -1,6 +1,6 @@
 image: gitpod/workspace-full-vnc
 tasks:
-  - init: sudo apt-get install python3-dialog -y
+  - init: sudo apt-get install python3-dialog -y && pip3 install pythondialog && sudo apt install dialog -y
     command: python3 main.py
 ports:
   - port: 5900
